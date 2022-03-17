@@ -1,93 +1,19 @@
-% Options for packages loaded elsewhere
-\PassOptionsToPackage{unicode}{hyperref}
-\PassOptionsToPackage{hyphens}{url}
-%
-\documentclass[
-]{article}
-\usepackage{amsmath,amssymb}
-\usepackage{lmodern}
-\usepackage{iftex}
-\ifPDFTeX
-  \usepackage[T1]{fontenc}
-  \usepackage[utf8]{inputenc}
-  \usepackage{textcomp} % provide euro and other symbols
-\else % if luatex or xetex
-  \usepackage{unicode-math}
-  \defaultfontfeatures{Scale=MatchLowercase}
-  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
-\fi
-% Use upquote if available, for straight quotes in verbatim environments
-\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
-\IfFileExists{microtype.sty}{% use microtype if available
-  \usepackage[]{microtype}
-  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
-}{}
-\makeatletter
-\@ifundefined{KOMAClassName}{% if non-KOMA class
-  \IfFileExists{parskip.sty}{%
-    \usepackage{parskip}
-  }{% else
-    \setlength{\parindent}{0pt}
-    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
-}{% if KOMA class
-  \KOMAoptions{parskip=half}}
-\makeatother
-\usepackage{xcolor}
-\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
-\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
-\hypersetup{
-  pdftitle={Random-Nikodym Theorem},
-  pdfauthor={Xie Zejian},
-  hidelinks,
-  pdfcreator={LaTeX via pandoc}}
-\urlstyle{same} % disable monospaced font for URLs
-\usepackage[margin=1in]{geometry}
-\usepackage{longtable,booktabs,array}
-\usepackage{calc} % for calculating minipage widths
-% Correct order of tables after \paragraph or \subparagraph
-\usepackage{etoolbox}
-\makeatletter
-\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
-\makeatother
-% Allow footnotes in longtable head/foot
-\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
-\makesavenoteenv{longtable}
-\usepackage{graphicx}
-\makeatletter
-\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
-\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
-\makeatother
-% Scale images if necessary, so that they will not overflow the page
-% margins by default, and it is still possible to overwrite the defaults
-% using explicit options in \includegraphics[width, height, ...]{}
-\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
-% Set default figure placement to htbp
-\makeatletter
-\def\fps@figure{htbp}
-\makeatother
-\setlength{\emergencystretch}{3em} % prevent overfull lines
-\providecommand{\tightlist}{%
-  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
-\setcounter{secnumdepth}{5}
-\ifLuaTeX
-  \usepackage{selnolig}  % disable illegal ligatures
-\fi
+---
+title: 十二铁COMBO列表
+author:
+  - Xie zejian
+date: "Last compiled on `r format(Sys.time(), '%H:%M, %d %B, %Y')`"
+output:
+  bookdown::html_document2:
+    toc: true
+    latex_engine: xelatex
+    keep_tex: true
+    number_sections: false
+---
 
-\title{Random-Nikodym Theorem}
-\author{Xie Zejian}
-\date{}
+# 1
 
-\begin{document}
-\maketitle
-
-{
-\setcounter{tocdepth}{2}
-\tableofcontents
-}
-\hypertarget{section}{%
-\section{1}\label{section}}
-
-combo30.十二兽：
+### combo30.十二兽：
 
 1.通招十二兽，十二兽叠猪弓，猪弓叠虎炮，虎炮叠龙枪
 
@@ -99,7 +25,9 @@ combo30.十二兽：
 
 2.对于十二兽+克拉斯，十二兽+纳贝尔，十二兽+姬特的牌型，建议同样是做龙枪过，十二兽+人马可以考虑combo19
 
-combo31.纳贝尔：
+
+
+### combo31.纳贝尔：
 
 1.通招纳贝尔，纳贝尔链接独角兔，发纳贝尔拿人马
 
@@ -109,7 +37,9 @@ combo31.纳贝尔：
 
 1.纳贝尔没必要盖，在场上可能被对方除外，如果没被对方打进墓的话，还会少赚卡
 
-combo32.克拉斯：
+
+
+### combo32.克拉斯：
 
 终场：
 
@@ -117,8 +47,7 @@ combo32.克拉斯：
 
 1.全靠其它坑的质量
 
-\hypertarget{combo27.ux4ebaux9a6c1ux624b}{%
-\subsubsection{combo27.人马+1手：}\label{combo27.ux4ebaux9a6c1ux624b}}
+### combo27.人马+1手：
 
 1.发人马扔姬特，发姬特扔纳贝尔，发纳贝尔拿人马
 
@@ -130,11 +59,9 @@ combo32.克拉斯：
 
 银弹+抗战+3手
 
-\hypertarget{section-1}{%
-\section{2}\label{section-1}}
+# 2
 
-\hypertarget{combo12.ux7eb3ux8d1dux5c14ux5929ux7391}{%
-\subsubsection{☆combo12.纳贝尔+天玑：}\label{combo12.ux7eb3ux8d1dux5c14ux5929ux7391}}
+### ☆combo12.纳贝尔+天玑：
 
 1.发天玑拿羊冲，通招羊冲，羊冲叠猪弓，猪弓叠龙枪
 
@@ -154,8 +81,7 @@ combo32.克拉斯：
 
 1.最经典的十二兽起手
 
-\hypertarget{combo13.ux4ebaux9a6cux517d2ux624b}{%
-\subsubsection{☆combo13.人马+兽+2手：}\label{combo13.ux4ebaux9a6cux517d2ux624b}}
+### ☆combo13.人马+兽+2手：
 
 1.发人马扔姬特，发姬特扔纳贝尔，发纳贝尔拿人马
 
@@ -169,8 +95,8 @@ combo32.克拉斯：
 
 2400神弓+双龙+抗战+1手
 
-\hypertarget{combo19.ux4ebaux9a6cux517d1ux624b}{%
-\subsubsection{☆combo19.人马+兽+1手：}\label{combo19.ux4ebaux9a6cux517d1ux624b}}
+
+### ☆combo19.人马+兽+1手：
 
 1.发人马扔姬特，发姬特扔纳贝尔，发纳贝尔拿克拉斯
 
@@ -190,8 +116,9 @@ combo32.克拉斯：
 
 2.第3步可以改成：克拉斯凶鸟链接块击，发凶鸟拿人马。然后第4步改成：通招人马，发人马特招徒花
 
-\hypertarget{combo20.ux4ebaux9a6cux94c1ux517d1ux624b}{%
-\subsubsection{combo20.人马+铁兽+1手：}\label{combo20.ux4ebaux9a6cux94c1ux517d1ux624b}}
+
+
+### combo20.人马+铁兽+1手：
 
 1.发人马扔姬特，发姬特扔纳贝尔，发纳贝尔拿姬特
 
@@ -209,8 +136,9 @@ combo32.克拉斯：
 
 2.第3步可以改成：发徒花特招铁兽，姬特徒花链接银弹。然后第4步改成：发铁兽特招块击，铁兽块击银弹链接神弓，发块击拿抗战
 
-\hypertarget{combo21.ux94c1ux517dux5929ux73911ux624b}{%
-\subsubsection{☆combo21.铁兽+天玑+1手：}\label{combo21.ux94c1ux517dux5929ux73911ux624b}}
+
+
+### ☆combo21.铁兽+天玑+1手：
 
 1.发天玑拿羊冲，通招羊冲，羊冲叠猪弓，猪弓叠龙枪
 
@@ -228,8 +156,9 @@ combo32.克拉斯：
 
 2.如果铁兽是纳贝尔或姬特，还可以再多赚1手
 
-\hypertarget{combo22.ux514bux62c9ux65afux7eb3ux8d1dux5c141ux624b}{%
-\subsubsection{☆combo22.克拉斯+纳贝尔+1手：}\label{combo22.ux514bux62c9ux65afux7eb3ux8d1dux5c141ux624b}}
+
+
+### ☆combo22.克拉斯+纳贝尔+1手：
 
 1.特招克拉斯扔纳贝尔，发纳贝尔拿人马，发人马扔姬特，发姬特扔人马
 
@@ -243,8 +172,9 @@ combo32.克拉斯：
 
 2400神弓+抗战+2手
 
-\hypertarget{combo23.ux4ebaux9a6cux5929ux73911ux624b}{%
-\subsubsection{combo23.人马+天玑+1手：}\label{combo23.ux4ebaux9a6cux5929ux73911ux624b}}
+
+
+### combo23.人马+天玑+1手：
 
 1.发天玑拿羊冲，通招羊冲，羊冲叠猪弓，猪弓叠龙枪
 
@@ -266,8 +196,12 @@ combo32.克拉斯：
 
 1.相比combo21，多用掉了链接怪资源，但是多积累了墓地资源，多滤了牌。
 
-\hypertarget{combo24.ux514bux62c9ux65afux59ecux72791ux624b}{%
-\subsubsection{☆combo24.克拉斯+姬特+1手：}\label{combo24.ux514bux62c9ux65afux59ecux72791ux624b}}
+### 十二兽+天玑+1手:
+
+天玑拿人马, 后同combo23
+
+
+### ☆combo24.克拉斯+姬特+1手：
 
 1.特招克拉斯扔姬特，发姬特扔纳贝尔，发纳贝尔拿人马
 
@@ -281,8 +215,9 @@ combo32.克拉斯：
 
 1.和combo22类似，区别在于，combo22：6招出神弓，徒花正规出场，combo24：5招内出神弓，省下凶鸟
 
-\hypertarget{combo25.ux94c1ux517dux5929ux7391}{%
-\subsubsection{☆combo25.铁兽+天玑：}\label{combo25.ux94c1ux517dux5929ux7391}}
+
+
+### ☆combo25.铁兽+天玑：
 
 1.发天玑拿羊冲，通招羊冲，羊冲叠猪弓，猪弓叠龙枪
 
@@ -300,8 +235,9 @@ combo32.克拉斯：
 
 1.如果铁兽是纳贝尔或姬特，还可以再多赚1手
 
-\hypertarget{combo26.ux4ebaux9a6cux6297ux6218}{%
-\subsubsection{combo26.人马+抗战：}\label{combo26.ux4ebaux9a6cux6297ux6218}}
+ 
+
+### combo26.人马+抗战：
 
 1.发人马扔姬特，发姬特扔纳贝尔，发纳贝尔拿人马
 
@@ -311,8 +247,7 @@ combo32.克拉斯：
 
 1600神弓+抗战+3手
 
-\hypertarget{combo28.ux7eb3ux8d1dux5c14ux517d1ux624b}{%
-\subsubsection{combo28.纳贝尔+兽+1手：}\label{combo28.ux7eb3ux8d1dux5c14ux517d1ux624b}}
+### combo28.纳贝尔+兽+1手：
 
 1.通招纳贝尔，纳贝尔链接独角兔，发纳贝尔拿克拉斯
 
@@ -326,7 +261,9 @@ combo32.克拉斯：
 
 1.通常是纳贝尔+纳贝尔，纳贝尔+姬特，或姬特+姬特时选择这种做法
 
-combo29.纳贝尔+抗战：
+ 
+
+### combo29.纳贝尔+抗战：
 
 1.通招纳贝尔，纳贝尔链接独角兔，发纳贝尔拿人马
 
@@ -338,11 +275,10 @@ combo29.纳贝尔+抗战：
 
 1.在墓地凑够4兽
 
-\hypertarget{section-2}{%
-\section{3}\label{section-2}}
+ 
+# 3 
 
-\hypertarget{combo5.ux514bux62c9ux65afux59ecux7279ux5929ux7391}{%
-\subsubsection{☆combo5.克拉斯+姬特+天玑：}\label{combo5.ux514bux62c9ux65afux59ecux7279ux5929ux7391}}
+### ☆combo5.克拉斯+姬特+天玑：
 
 1.发天玑拿羊冲，通招羊冲，羊冲叠猪弓，猪弓叠龙枪
 
@@ -360,8 +296,40 @@ combo29.纳贝尔+抗战：
 
 1600神弓+龙枪+双龙+抗战+2手
 
-\hypertarget{combo6.ux514bux62c9ux65afux59ecux7279ux5341ux4e8cux517d}{%
-\subsubsection{☆combo6.克拉斯+姬特+十二兽：}\label{combo6.ux514bux62c9ux65afux59ecux7279ux5341ux4e8cux517d}}
+### 克拉斯+人马+天玑：
+
+1.发天玑拿羊冲，通招羊冲，羊冲叠猪弓，猪弓叠龙枪
+
+2.发龙枪炸天玑，龙枪叠狗环，发狗环特招龙枪
+
+3.狗环龙枪链接徒花，发徒花特招人马
+
+4. 发人马特招块击，发人马扔姬特，发姬特扔纳贝尔，发纳贝尔拿铁兽
+
+6.特招克拉斯扔铁兽特招双龙
+
+5.徒花块击克拉斯链接神弓，发凶鸟拿马剑
+
+7.克拉斯块击银弹链接神弓，发块击拿抗战
+
+终场：
+
+2400神弓+双龙+抗战+1手
+
+
+::: {.remark}
+
+<br>
+
+- 也可做1600神弓+双龙+抗战+2手, 人马发效招凶鸟, 然后凶鸟和克拉斯链接块击
+
+:::
+
+
+
+
+
+### ☆combo6.克拉斯+姬特+十二兽：
 
 1.通招十二兽，十二兽叠猪弓，猪弓叠龙枪
 
@@ -383,8 +351,8 @@ combo29.纳贝尔+抗战：
 
 2.即使克拉斯没被无效，炸掉克拉斯可以丰富墓地资源，并启动十二兽的展开
 
-\hypertarget{combo7.ux4ebaux9a6cux94c1ux517dux517d1ux624b}{%
-\subsubsection{combo7.人马+铁兽+兽+1手：}\label{combo7.ux4ebaux9a6cux94c1ux517dux517d1ux624b}}
+ 
+### combo7.人马+铁兽+兽+1手：
 
 1.发人马扔姬特，发姬特扔纳贝尔，发纳贝尔拿克拉斯
 
@@ -404,8 +372,8 @@ combo29.纳贝尔+抗战：
 
 1.可以换成combo19，用小一点的场换多1坑，或留怪为下回合做准备
 
-\hypertarget{combo8.ux4ebaux9a6cux5341ux4e8cux517dux517d1ux624b}{%
-\subsubsection{combo8.人马+十二兽+兽+1手：}\label{combo8.ux4ebaux9a6cux5341ux4e8cux517dux517d1ux624b}}
+
+### combo8.人马+十二兽+兽+1手：
 
 1.通招十二兽，十二兽叠猪弓，猪弓叠龙枪
 
@@ -425,8 +393,8 @@ combo29.纳贝尔+抗战：
 
 1.可以换成combo19，用小一点的场换多1坑，或留怪为下回合做准备
 
-\hypertarget{combo9.ux514bux62c9ux65afux7eb3ux8d1dux5c14ux94c1ux517d1ux624b}{%
-\subsubsection{combo9.克拉斯+纳贝尔+铁兽+1手：}\label{combo9.ux514bux62c9ux65afux7eb3ux8d1dux5c14ux94c1ux517d1ux624b}}
+
+### combo9.克拉斯+纳贝尔+铁兽+1手：
 
 1.特招克拉斯扔纳贝尔，发纳贝尔拿人马，发人马扔姬特，发姬特扔人马
 
@@ -444,8 +412,8 @@ combo29.纳贝尔+抗战：
 
 1.可以换成combo22，用小一点的场换多1坑，或留怪为下回合做准备
 
-\hypertarget{combo10.ux514bux62c9ux65afux7eb3ux8d1dux5c14ux5341ux4e8cux517d1ux624b}{%
-\subsubsection{combo10.克拉斯+纳贝尔+十二兽+1手：}\label{combo10.ux514bux62c9ux65afux7eb3ux8d1dux5c14ux5341ux4e8cux517d1ux624b}}
+
+### combo10.克拉斯+纳贝尔+十二兽+1手：
 
 1.通招十二兽，十二兽叠猪弓，猪弓叠龙枪
 
@@ -463,8 +431,7 @@ combo29.纳贝尔+抗战：
 
 1.可以换成combo22，用小一点的场换多1坑，或留怪为下回合做准备
 
-\hypertarget{combo11.ux9a6cux5251ux7f8aux51b2ux94c1ux517d}{%
-\subsubsection{☆combo11.马剑+羊冲+铁兽：}\label{combo11.ux9a6cux5251ux7f8aux51b2ux94c1ux517d}}
+### ☆combo11.马剑+羊冲+铁兽：
 
 1.通招马剑扔羊冲，马剑叠猪弓，猪弓叠狗环
 
@@ -486,8 +453,9 @@ combo29.纳贝尔+抗战：
 
 1.如果铁兽是纳贝尔或姬特，还可以再多赚1手
 
-\hypertarget{combo2.ux514bux62c9ux65afux7eb3ux8d1dux5c14ux5929ux73911ux624b}{%
-\subsubsection{☆combo2.克拉斯+纳贝尔+天玑+1手：}\label{combo2.ux514bux62c9ux65afux7eb3ux8d1dux5c14ux5929ux73911ux624b}}
+
+
+### ☆combo2.克拉斯+纳贝尔+天玑+1手：
 
 1.发天玑拿羊冲，通招羊冲，羊冲叠猪弓，猪弓叠龙枪
 
@@ -507,8 +475,7 @@ combo29.纳贝尔+抗战：
 
 1.有对象给龙枪炸卡可以启动十二兽展开，对比combo10的终场，相当于白嫖了双龙
 
-\hypertarget{combo16.ux514bux62c9ux65afux7eb3ux8d1dux5c143ux624b}{%
-\subsubsection{combo16.克拉斯+纳贝尔+3手：}\label{combo16.ux514bux62c9ux65afux7eb3ux8d1dux5c143ux624b}}
+### combo16.克拉斯+纳贝尔+3手：
 
 1.特招克拉斯扔纳贝尔，发纳贝尔拿人马，发人马扔姬特，发姬特扔人马
 
@@ -522,8 +489,7 @@ combo29.纳贝尔+抗战：
 
 1.打空手牌的做法，如果手牌质量好不建议使用，可换成combo22
 
-\hypertarget{combo14.ux4ebaux9a6cux94c1ux517dux517d1ux624b}{%
-\subsubsection{combo14.人马+铁兽+兽+1手：}\label{combo14.ux4ebaux9a6cux94c1ux517dux517d1ux624b}}
+### combo14.人马+铁兽+兽+1手：
 
 1.发人马扔姬特，发姬特扔纳贝尔，发纳贝尔拿克拉斯
 
@@ -539,8 +505,8 @@ combo29.纳贝尔+抗战：
 
 1.似乎和combo13没什么差别
 
-\hypertarget{combo15.ux59ecux72792ux517d2ux624b}{%
-\subsubsection{combo15.姬特+2兽+2手：}\label{combo15.ux59ecux72792ux517d2ux624b}}
+
+### combo15.姬特+2兽+2手：
 
 1.通招姬特，姬特链接独角兔，发姬特扔纳贝尔，发纳贝尔拿克拉斯
 
@@ -556,8 +522,12 @@ combo29.纳贝尔+抗战：
 
 1.打空手牌的做法，如果手牌质量好不建议使用，可换成combo28
 
-\hypertarget{combo17.ux4ebaux9a6cux94c1ux517dux6297ux6218}{%
-\subsubsection{combo17.人马+铁兽+抗战：}\label{combo17.ux4ebaux9a6cux94c1ux517dux6297ux6218}}
+
+
+
+
+
+### combo17.人马+铁兽+抗战：
 
 1.发人马扔姬特，发姬特扔纳贝尔，发纳贝尔拿人马
 
@@ -571,8 +541,9 @@ combo29.纳贝尔+抗战：
 
 1600神弓+双龙+抗战+2手
 
-\hypertarget{combo18.ux4ebaux9a6cux5929ux7391ux6297ux6218}{%
-\subsubsection{combo18.人马+天玑+抗战：}\label{combo18.ux4ebaux9a6cux5929ux7391ux6297ux6218}}
+
+
+### combo18.人马+天玑+抗战：
 
 1.发天玑拿羊冲，通招羊冲，羊冲叠猪弓，猪弓叠龙枪
 
@@ -590,11 +561,30 @@ combo29.纳贝尔+抗战：
 
 1600神弓+双龙+抗战+2手
 
-\hypertarget{section-3}{%
-\section{4}\label{section-3}}
 
-\hypertarget{combo3.ux7eb3ux8d1dux5c14ux9a6cux5251ux7f8aux51b2ux517d1ux624b}{%
-\subsubsection{☆combo3.纳贝尔+马剑+羊冲+兽+1手：}\label{combo3.ux7eb3ux8d1dux5c14ux9a6cux5251ux7f8aux51b2ux517d1ux624b}}
+### 纳贝尔+天玑+抗战：
+
+1.发天玑拿羊冲，通招羊冲，羊冲叠猪弓，猪弓叠龙枪
+
+2.发龙枪炸天玑，龙枪叠狗环，发狗环特招龙枪
+
+3.狗环龙枪链接徒花，发徒花特招姬特/纳贝尔
+
+4.特招凶鸟
+
+5.徒花凶鸟链接银弹，发凶鸟拿马剑
+
+6.银弹姬特/纳贝尔链接神弓, 姬特/纳贝尔拿克拉斯
+
+7.特招克拉斯扔马剑，发克拉斯特招双龙
+
+终场：
+
+1600神弓+双龙+抗战+克拉斯+2手
+ 
+# 4 
+
+### ☆combo3.纳贝尔+马剑+羊冲+兽+1手：
 
 1.通招马剑扔羊冲，马剑叠猪弓，猪弓叠狗环
 
@@ -616,8 +606,7 @@ combo29.纳贝尔+抗战：
 
 2400神弓+龙枪+双龙+抗战+1手
 
-\hypertarget{combo4.ux514bux62c9ux65afux59ecux7279ux5341ux4e8cux517dux6297ux6218}{%
-\subsubsection{combo4.克拉斯+姬特+十二兽+抗战：}\label{combo4.ux514bux62c9ux65afux59ecux7279ux5341ux4e8cux517dux6297ux6218}}
+### combo4.克拉斯+姬特+十二兽+抗战：
 
 1.通招十二兽，十二兽叠猪弓，猪弓叠龙枪
 
@@ -637,17 +626,20 @@ combo29.纳贝尔+抗战：
 
 2.即使克拉斯没被无效，炸掉克拉斯可以丰富墓地资源，并启动十二兽的展开
 
-\hypertarget{section-4}{%
-\section{5}\label{section-4}}
 
-\hypertarget{combo1.ux7eb3ux8d1dux5c14ux9a6cux5251ux7f8aux51b2ux517dux6297ux6218}{%
-\subsubsection{combo1.纳贝尔+马剑+羊冲+兽+抗战：}\label{combo1.ux7eb3ux8d1dux5c14ux9a6cux5251ux7f8aux51b2ux517dux6297ux6218}}
+ 
+
+ 
+
+# 5
+
+### combo1.纳贝尔+马剑+羊冲+兽+抗战：
 
 1.通招马剑扔羊冲，马剑叠猪弓，猪弓叠狗环
 
 2.发狗环特招羊冲，狗环叠龙枪
 
-3.发龙枪炸羊冲，发羊冲特招狗环
+3.发龙枪炸羊冲，发羊冲特招狗环  
 
 4.龙枪叠虎炮，发虎炮指狗环，发狗环特招龙枪
 
@@ -664,5 +656,3 @@ combo29.纳贝尔+抗战：
 1.发抗战前先发双龙释放场上克拉斯，这样空出3格子，可以通过纳贝尔姬特徒花来特招凶鸟
 
 2.第7步用2手特招克拉斯+双龙可以视情况省略，留资源到下回合使用
-
-\end{document}
