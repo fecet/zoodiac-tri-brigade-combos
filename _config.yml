@@ -3,3 +3,6 @@ deploy:
   type: git
   repo: git@github.com:fecet/fecet.github.io.git
   branch: master
+environment:
+  name: staging
+  url: https://fecet.github.io.git/
