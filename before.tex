@@ -1,0 +1,11 @@
+\makeatletter
+\def\cleartheorem#1{%
+    \expandafter\let\csname#1\endcsname\relax
+    \expandafter\let\csname c@#1\endcsname\relax
+}
+\makeatother
+
+\cleartheorem{hypothesis}
+
+\theoremstyle{remark}
+\newtheorem{hypothesis}{Remarks.}[chapter]
