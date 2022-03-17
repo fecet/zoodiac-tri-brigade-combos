@@ -1,7 +1,7 @@
 theme: jekyll-theme-cayman
-# deploy:
-#   type: git
-#   repo: git@github.com:fecet/fecet.github.io.git
-#   branch: master
+deploy:
+  type: git
+  repo: git@github.com:fecet/fecet.github.io.git
+  branch: master
 environment:
   url: https://fecet.github.io.git/
