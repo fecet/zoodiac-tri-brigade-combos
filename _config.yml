@@ -3,5 +3,5 @@ theme: jekyll-theme-cayman
 #   type: git
 #   repo: git@github.com:fecet/fecet.github.io.git
 #   branch: master
-# environment:
-#   url: https://fecet.github.io.git/
+environment:
+  url: https://fecet.github.io.git/
