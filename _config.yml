@@ -4,5 +4,5 @@ deploy:
   repo: git@github.com:fecet/fecet.github.io.git
   branch: master
 environment:
-  name: combos
+  name: staging
   url: https://fecet.github.io.git/
