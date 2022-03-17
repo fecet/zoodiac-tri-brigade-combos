@@ -1,8 +1,7 @@
 theme: jekyll-theme-cayman
-deploy:
-  type: git
-  repo: git@github.com:fecet/fecet.github.io.git
-  branch: master
-environment:
-  name: staging
-  url: https://fecet.github.io.git/
+# deploy:
+#   type: git
+#   repo: git@github.com:fecet/fecet.github.io.git
+#   branch: master
+# environment:
+#   url: https://fecet.github.io.git/
